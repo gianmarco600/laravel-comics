@@ -57,3 +57,22 @@ a{
 main{
     margin: 30px;
 }
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+ul{
+    list-style: none;
+    height: 100%;
+}
+
+.rel{
+    position: relative;
+}
+
+.white{
+    color: white;
+}
