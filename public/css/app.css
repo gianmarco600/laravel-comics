@@ -183,6 +183,12 @@ main {
 
 .card .bgimg img {
   width: 100%;
+  z-index: 9999;
+}
+
+.card .bgimg .bgfx {
+  width: 100%;
+  height: 100%;
 }
 
 .card:hover {
@@ -192,7 +198,7 @@ main {
 
 .card .etichetta {
   position: absolute;
-  bottom: -40px;
+  bottom: -60px;
   width: 100%;
   text-align: center;
   color: #0c7cec;
